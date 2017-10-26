@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>BLong首页</title>
+<link rel="stylesheet" type="text/css" href="css/index.css"/>	
+<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+<link rel="stylesheet" href="css/swiper-3.4.2.min.css">
+
+</head>
+<body>
+<!--header-->
+	<div id="top_nav">
+		<div id="top_nav01">
+			<a href="#">中国<img src="img/top_nav01.jpg"/></a>
+			<a class="phone" href="#"><i class="iconfont icon-phone"></i>电话订购400 6088 588</a>
+		<div id="top_nav02">
+			<a class="star" href="#"><i class="iconfont icon-starfull"></i></a>
+			<a class="bag" href="#"><i class="iconfont icon-gouwudai"></i></a>
+			<a class="people" href="#"><img src="img/top_nav05.jpg"/> </a>
+			<a href="#">登录/</a>
+			<a href="#">注册</a>
+		</div>
+		</div>
+	</div>	
+	<div id="middle_nav">
+		<div id="middle">
+			<div class="locaition"><a href="#" ><i class="iconfont icon-weizhi"></i>查找店铺</a></div>
+			<img class="logo" src="img/logo.jpg" />
+			<div class="search" ><a href="#">查找<i class="iconfont icon-sousuo"></i></a></div>
+		</div>
+	</div>
+		<div id="nav_line"></div>
+	<div id="bottom_nav">
+		<div id="ulId">
+		<ul>
+			<li><a href="#">所有全新</a></li>
+			<li><a href="#">书写工具</a></li>
+			<li><a href="#">皮具</a></li>
+			<li><a href="#">腕表</a></li>
+			<li><a href="#">智能设备</a></li>
+			<li><a href="#">配件</a></li>
+			<li><a href="#">文具和笔芯</a></li>
+			<li class="lastli"><a href="#">搜索万宝龙</a></li>
+		</ul>
+		</div>
+	</div>
+<!--section-->
+	<div class="section_01">
+		<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="img/lunbo_01.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="img/lunbo_02.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="img/lunbo_03.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="img/lunbo_04.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="img/lunbo_05.jpg" alt=""></div>
+    </div>
+    <!-- 如果需要分页器 -->
+    <div class="swiper-pagination"></div>
+    
+    <!-- 如果需要导航按钮 -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+    
+
+</div>
+	</div>
+</body>
+</html>
+<script type="text/javascript" src="js/swiper-3.4.2.min.js"></script>
+<script type="text/javascript">
+	 var mySwiper = new Swiper ('.swiper-container', {
+   	 autoplay: 2000,
+     loop: true,
+     autoplayDisableOnInteraction :false,
+     effect : 'slid',
+     //effect : 'coverflow',
+paginationClickable: true,
+    // 如果需要分页器
+    pagination: '.swiper-pagination',
+    
+    // 如果需要前进后退按钮
+    nextButton: '.swiper-button-next',
+    prevButton: '.swiper-button-prev',
+    
+   
+  })  
+</script>
